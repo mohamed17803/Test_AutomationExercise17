@@ -1,0 +1,93 @@
+[INFO ] 2024-04-24 19:55:01.250 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.7.4.20231211[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-24 19:55:01.250 [main] ReportManager - Checking for engine updates...
+[INFO ] 2024-04-24 19:55:01.270 [main] ReportManager - Engine Update check done for the day. 👍
+[INFO ] 2024-04-24 19:55:02.073 [main] ReportManager - Loaded OpenCV "opencv_java481".
+[INFO ] 2024-04-24 19:55:02.073 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-04-24 19:55:02.148 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2024-04-24 19:55:02.305 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-04-24 19:55:02.320 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-04-24 19:55:02.383 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/SignInTestData.json"".
+[INFO ] 2024-04-24 19:55:02.383 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/SignInTestData.json"".
+[INFO ] 2024-04-24 19:55:02.383 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/SignInTestData.json"".
+[ERROR] 2024-04-24 19:55:02.383 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-24 19:55:02.383 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-04-24 19:55:02.446 [main] Utils - [TestNG] Running:
+  C:\Users\Express\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+[INFO ] 2024-04-24 19:55:02.461 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-24 19:55:02.477 [main] ReportManager - Initializing Important Links...
+[INFO ] 2024-04-24 19:55:02.493 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-04-24 19:55:02.588 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                      'GuiTests.LoginUserTest.beforeMethod'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-24 19:55:02.588 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-04-24 19:55:02.603 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Express\IdeaProjec..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 30000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-04-24 19:55:02.603 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2024-04-24 19:55:02.603 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2024-04-24 19:55:05.691 [main] ReportManager - Apr 24, 2024 7:55:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-04-24 19:55:05.691 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 120; Please update to a Selenium version that supports CDP version 124
+[INFO ] 2024-04-24 19:55:05.700 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2024-04-24 19:55:05.755 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                               Test Method: 'GuiTests.LoginUserTest.Login_User_with_Incorrect_email_and_password'                               
+                                        Test Description: 'Login User with Incorrect email and password'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-24 19:55:05.769 [main] ReportManager - Target URL: "https://www.automationexercise.com/"
+[INFO ] 2024-04-24 19:55:05.784 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-04-24 19:55:14.662 [main] ReportManager - Navigate to url "https://www.automationexercise.com/".
+[INFO ] 2024-04-24 19:55:14.863 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-04-24 19:55:14.906 [main] ReportManager - Click " Signup / Login".
+[INFO ] 2024-04-24 19:55:14.908 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/SignInTestData.json"".
+[INFO ] 2024-04-24 19:55:14.908 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/SignInTestData.json"".
+[INFO ] 2024-04-24 19:55:15.687 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/SignInTestData.json"".
+[INFO ] 2024-04-24 19:55:15.688 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/SignInTestData.json"".
+[INFO ] 2024-04-24 19:55:15.985 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-04-24 19:55:16.109 [main] ReportManager - Type "Test1422@gmail.cominvalidEmail" into "Email Address".
+[INFO ] 2024-04-24 19:55:16.210 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-04-24 19:55:16.349 [main] ReportManager - Type "P@$$w0rd" into "Password".
+[INFO ] 2024-04-24 19:55:16.533 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-04-24 19:55:16.577 [main] ReportManager - Click "Login".
+[INFO ] 2024-04-24 19:55:16.896 [main] ReportManager - Get text "Your email or password is incorrect!" from "By.xpath: //p[contains(.,'Your email or password is incorrect!')]".
+[INFO ] 2024-04-24 19:55:16.897 [main] ReportManager - Expected "Your email or password is incorrect!", and actual "Your email or password is incorrect!"
+[INFO ] 2024-04-24 19:55:17.916 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Your email or password is incorrect!' for the 'text' attribute, element locator 'By.xpath: //p[contains(.,'Your email or password is incorrect!')]'" and Actual "Your email or password is incorrect!". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2024-04-24 19:55:17.918 [main] ReportManager - Successfully created attachment 'Screenshot - 1713981317117_Login_User_with_Incorrect_email_and_password_ValidateElementAttribute_passed'
+[INFO ] 2024-04-24 19:55:17.932 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2024-04-24 19:55:17.932 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Login_User_with_Incorrect_email_and_password'
+[INFO ] 2024-04-24 19:55:17.932 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                    Finished Execution of Test Method: 'GuiTests.LoginUserTest.Login_User_with_Incorrect_email_and_password'                    
+                                        Test Description: 'Login User with Incorrect email and password'                                        
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-24 19:55:17.949 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                      'GuiTests.LoginUserTest.afterMethod'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-24 19:55:18.200 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-04-24 19:55:18.203 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2024-04-24 19:55:18.203 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-24 19:55:18.203 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2024-04-24 19:55:18.203 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2024-04-24 19:55:18.203 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".
