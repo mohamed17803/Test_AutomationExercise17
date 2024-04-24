@@ -1,0 +1,31 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                Test Method: 'GuiTests.LoginUserTest.Login_User_with_correct_email_and_password'                                
+                                         Test Description: 'Login User with correct email and password'                                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://www.automationexercise.com/" @25-04-2024 01:03:53.0552 AM
+[ReportManager] Initial URL: "about:blank" @25-04-2024 01:03:53.0571 AM
+[ReportManager] Navigate to url "https://www.automationexercise.com/". @25-04-2024 01:04:25.0221 AM
+[ReportManager] Moved the mouse to the middle of the element. @25-04-2024 01:04:25.0431 AM
+[ReportManager] Click " Signup / Login". @25-04-2024 01:04:25.0465 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/SignInTestData.json"". @25-04-2024 01:04:25.0467 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/SignInTestData.json"". @25-04-2024 01:04:25.0468 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/SignInTestData.json"". @25-04-2024 01:04:25.0484 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/SignInTestData.json"". @25-04-2024 01:04:25.0485 AM
+[ReportManager] text cleared Using Native Clear @25-04-2024 01:04:32.0507 AM
+[ReportManager] Type "Test1422@gmail.com" into "Email Address". @25-04-2024 01:04:32.0626 AM
+[ReportManager] text cleared Using Native Clear @25-04-2024 01:04:32.0748 AM
+[ReportManager] Type "P@$$w0rd" into "Password". @25-04-2024 01:04:32.0874 AM
+[ReportManager] Moved the mouse to the middle of the element. @25-04-2024 01:04:38.0049 AM
+[ReportManager] Click "Login". @25-04-2024 01:04:38.0066 AM
+[ReportManager] Expected condition failed: waiting for com.shaft.gui.element.internal.ElementActionsHelper$$Lambda$1203/0x00000008017f1630@132e0e20 (tried for 60 second(s) with 100 milliseconds interval) || no such element: Unable to locate element: {"method":"xpath","selector":"//b[contains(.,'Ahmed')]"} @25-04-2024 01:05:38.0100 AM
+[ReportManager] Failed to Get text from "By.xpath: //b[contains(.,'Ahmed')]". @25-04-2024 01:05:38.0100 AM
+[ReportManager] Assertion "ValidateElementAttribute" FAILED. Expected "Value Should be 'Ahmed' for the 'text' attribute, element locator 'By.xpath: //b[contains(.,'Ahmed')]'" and Actual "Failed to read the desired element attribute". Comparison Type "CONTAINS". Validation Type "POSITIVE". @25-04-2024 01:05:41.0757 AM
+[ReportManager] Assertion Failed: Verify that 'Logged in as username' is visible @25-04-2024 01:05:41.0757 AM
+[ReportManager] Successfully created attachment 'Screenshot - 1713999941237_Login_User_with_correct_email_and_password_ValidateElementAttribute_failed' @25-04-2024 01:05:41.0774 AM
+[ReportManager] Successfully created attachment 'Validation Test Data - Failure Reason' @25-04-2024 01:05:41.0774 AM
+[ReportManager] Assertion "ValidateElementAttribute" FAILED. Expected "Value Should be 'Ahmed' for the 'text' attribute, element locator 'By.xpath: //b[contains(.,'Ahmed')]'" and Actual "Failed to read the desired element attribute". Comparison Type "CONTAINS". Validation Type "POSITIVE". Root cause: "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//b[contains(.,'Ahmed')]"}" @25-04-2024 01:05:41.0774 AM
+[ReportManager] Successfully created attachment 'Validations helper - Get  stack  trace - Exception Stacktrace' @25-04-2024 01:05:41.0774 AM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod' @25-04-2024 01:05:41.0791 AM
