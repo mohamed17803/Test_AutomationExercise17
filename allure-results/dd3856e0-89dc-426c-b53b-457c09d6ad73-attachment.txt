@@ -1,0 +1,100 @@
+[INFO ] 2024-05-11 03:19:57.611 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.7.4.20231211[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-05-11 03:19:57.627 [main] ReportManager - Checking for engine updates...
+[INFO ] 2024-05-11 03:19:57.643 [main] ReportManager - Engine Update check done for the day. 👍
+[INFO ] 2024-05-11 03:19:58.462 [main] ReportManager - Loaded OpenCV "opencv_java481".
+[INFO ] 2024-05-11 03:19:58.462 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-05-11 03:19:58.573 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2024-05-11 03:19:58.858 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-05-11 03:19:58.874 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-05-11 03:19:59.016 [main] Utils - [TestNG] Running:
+  C:\Users\Express\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+[INFO ] 2024-05-11 03:19:59.032 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-05-11 03:19:59.127 [main] ReportManager - Initializing Important Links...
+[INFO ] 2024-05-11 03:19:59.142 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-05-11 03:19:59.302 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                 'GuiTests.VerifySubscriptionTest.beforeMethod'                                                 
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-05-11 03:19:59.315 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-05-11 03:19:59.331 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\Express\IdeaProjec..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 30000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-05-11 03:19:59.331 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2024-05-11 03:19:59.331 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2024-05-11 03:20:00.929 [main] ReportManager - May 11, 2024 3:20:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-05-11 03:20:00.929 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 120; Please update to a Selenium version that supports CDP version 124
+[INFO ] 2024-05-11 03:20:00.929 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2024-05-11 03:20:01.006 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                 Test Method: 'GuiTests.VerifySubscriptionTest.Verify_Subscription_in_home_page'                                 
+                                              Test Description: 'Verify Subscription in home page'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-05-11 03:20:01.011 [main] ReportManager - Target URL: "https://www.automationexercise.com/"
+[INFO ] 2024-05-11 03:20:01.039 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-05-11 03:20:04.562 [main] ReportManager - Navigate to url "https://www.automationexercise.com/".
+[INFO ] 2024-05-11 03:20:04.564 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/SignInTestData.json"".
+[INFO ] 2024-05-11 03:20:04.564 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/SignInTestData.json"".
+[INFO ] 2024-05-11 03:20:04.564 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/SignInTestData.json"".
+[DEBUG] 2024-05-11 03:20:04.576 [main] cache - Couldn't find template in cache for "codeblock.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-05-11 03:20:04.576 [main] cache - TemplateLoader.findTemplateSource("codeblock_en_US.ftl"): Not found
+[DEBUG] 2024-05-11 03:20:04.591 [main] cache - TemplateLoader.findTemplateSource("codeblock_en.ftl"): Not found
+[DEBUG] 2024-05-11 03:20:04.592 [main] cache - TemplateLoader.findTemplateSource("codeblock.ftl"): Found
+[DEBUG] 2024-05-11 03:20:04.592 [main] cache - Loading template for "codeblock.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Express/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/markup/codeblock.ftl"
+[DEBUG] 2024-05-11 03:20:04.693 [main] cache - Couldn't find template in cache for "codeblock.json.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-05-11 03:20:04.693 [main] cache - TemplateLoader.findTemplateSource("codeblock.json_en_US.ftl"): Not found
+[DEBUG] 2024-05-11 03:20:04.693 [main] cache - TemplateLoader.findTemplateSource("codeblock.json_en.ftl"): Not found
+[DEBUG] 2024-05-11 03:20:04.693 [main] cache - TemplateLoader.findTemplateSource("codeblock.json.ftl"): Found
+[DEBUG] 2024-05-11 03:20:04.693 [main] cache - Loading template for "codeblock.json.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Express/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/markup/codeblock.json.ftl"
+[INFO ] 2024-05-11 03:20:04.715 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-05-11 03:20:04.716 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/SignInTestData.json"".
+[INFO ] 2024-05-11 03:20:04.716 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/SignInTestData.json"".
+[INFO ] 2024-05-11 03:20:05.912 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-05-11 03:20:06.047 [main] ReportManager - Type "Test1422@gmail.com" into "Your email address".
+[INFO ] 2024-05-11 03:20:06.210 [main] ReportManager - Key press "ENTER" against "Your email address".
+[INFO ] 2024-05-11 03:20:06.276 [main] ReportManager - Get text "You have been successfully subscribed!" from "By.id: success-subscribe".
+[INFO ] 2024-05-11 03:20:06.277 [main] ReportManager - Expected "You have been successfully subscribed!", and actual "You have been successfully subscribed!"
+[INFO ] 2024-05-11 03:20:10.510 [main] ReportManager - Verification "ValidateElementAttribute" PASSED. Expected "Value Should be 'You have been successfully subscribed!' for the 'text' attribute, element locator 'By.id: success-subscribe'" and Actual "You have been successfully subscribed!". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2024-05-11 03:20:10.542 [main] ReportManager - Successfully created attachment 'Screenshot - 1715390407640_Verify_Subscription_in_home_page_ValidateElementAttribute_passed'
+[INFO ] 2024-05-11 03:20:10.542 [main] ReportManager - Attempting to getAttribute "hidden" from elementLocator "By.id: success-subscribe".
+[INFO ] 2024-05-11 03:20:10.604 [main] ReportManager - Get attribute from "By.id: success-subscribe".
+[INFO ] 2024-05-11 03:20:10.605 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2024-05-11 03:20:13.490 [main] ReportManager - Verification "ValidateElementAttribute" PASSED. Expected "Value Should be 'null' for the 'hidden' attribute, element locator 'By.id: success-subscribe'" and Actual "null". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2024-05-11 03:20:13.512 [main] ReportManager - Successfully created attachment 'Screenshot - 1715390411725_Verify_Subscription_in_home_page_ValidateElementAttribute_passed'
+[INFO ] 2024-05-11 03:20:13.512 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2024-05-11 03:20:13.525 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_Subscription_in_home_page'
+[INFO ] 2024-05-11 03:20:13.525 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                      Finished Execution of Test Method: 'GuiTests.VerifySubscriptionTest.Verify_Subscription_in_home_page'                      
+                                              Test Description: 'Verify Subscription in home page'                                              
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-05-11 03:20:13.541 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                  'GuiTests.VerifySubscriptionTest.afterMethod'                                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-05-11 03:20:13.892 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-05-11 03:20:13.893 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2024-05-11 03:20:13.893 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-05-11 03:20:13.893 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2024-05-11 03:20:13.893 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2024-05-11 03:20:13.893 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".

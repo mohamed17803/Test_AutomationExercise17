@@ -1,0 +1,32 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                 Test Method: 'GuiTests.VerifySubscriptionTest.Verify_Subscription_in_home_page'                                 
+                                              Test Description: 'Verify Subscription in home page'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://www.automationexercise.com/" @11-05-2024 03:20:01.0011 AM
+[ReportManager] Initial URL: "about:blank" @11-05-2024 03:20:01.0039 AM
+[ReportManager] Navigate to url "https://www.automationexercise.com/". @11-05-2024 03:20:04.0559 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/SignInTestData.json"". @11-05-2024 03:20:04.0564 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/SignInTestData.json"". @11-05-2024 03:20:04.0564 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/SignInTestData.json"". @11-05-2024 03:20:04.0564 AM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/SignInTestData.json". @11-05-2024 03:20:04.0565 AM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @11-05-2024 03:20:04.0715 AM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/SignInTestData.json"". @11-05-2024 03:20:04.0716 AM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/SignInTestData.json"". @11-05-2024 03:20:04.0716 AM
+[ReportManager] text cleared Using Native Clear @11-05-2024 03:20:05.0912 AM
+[ReportManager] Type "Test1422@gmail.com" into "Your email address". @11-05-2024 03:20:06.0047 AM
+[ReportManager] Key press "ENTER" against "Your email address". @11-05-2024 03:20:06.0209 AM
+[ReportManager] Get text "You have been successfully subscribed!" from "By.id: success-subscribe". @11-05-2024 03:20:06.0276 AM
+[ReportManager] Expected "You have been successfully subscribed!", and actual "You have been successfully subscribed!" @11-05-2024 03:20:06.0277 AM
+[ReportManager] Verification "ValidateElementAttribute" PASSED. Expected "Value Should be 'You have been successfully subscribed!' for the 'text' attribute, element locator 'By.id: success-subscribe'" and Actual "You have been successfully subscribed!". Comparison Type "CONTAINS". Validation Type "POSITIVE". @11-05-2024 03:20:10.0510 AM
+[ReportManager] Verification Passed: Verify success message 'You have been successfully subscribed!' contains You have been successfully subscribed! @11-05-2024 03:20:10.0510 AM
+[ReportManager] Successfully created attachment 'Screenshot - 1715390407640_Verify_Subscription_in_home_page_ValidateElementAttribute_passed' @11-05-2024 03:20:10.0542 AM
+[ReportManager] Attempting to getAttribute "hidden" from elementLocator "By.id: success-subscribe". @11-05-2024 03:20:10.0542 AM
+[ReportManager] Get attribute from "By.id: success-subscribe". @11-05-2024 03:20:10.0604 AM
+[ReportManager] Expected "null", and actual "null" @11-05-2024 03:20:10.0605 AM
+[ReportManager] Verification "ValidateElementAttribute" PASSED. Expected "Value Should be 'null' for the 'hidden' attribute, element locator 'By.id: success-subscribe'" and Actual "null". Comparison Type "EQUALS". Validation Type "POSITIVE". @11-05-2024 03:20:13.0490 AM
+[ReportManager] Verification Passed: Verify success message 'You have been successfully subscribed!' is visible @11-05-2024 03:20:13.0491 AM
+[ReportManager] Successfully created attachment 'Screenshot - 1715390411725_Verify_Subscription_in_home_page_ValidateElementAttribute_passed' @11-05-2024 03:20:13.0512 AM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod' @11-05-2024 03:20:13.0512 AM
